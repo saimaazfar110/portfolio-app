@@ -6,9 +6,11 @@ import {link} from "react-router-dom"
 const Navbar = () => {
   return(
     <div className="header">
-      <Link></Link>
+      <Link to="/">
+        <h1>portfoli</h1>
+      </Link>
       </div>
-  )
-} 
+  );
+} ;
 
-export default Navbar
+export default Navbar;

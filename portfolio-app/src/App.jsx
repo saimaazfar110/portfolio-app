@@ -1,11 +1,11 @@
-import REACT  from "react";
+import React  from "react";
 import "./index.css";
-import Home from "./router/Home";
-import About from "./router/About";
-import Project from "./router/Project";
-import Contact from "./router/Contact";
+import Home from "./routes/Home";
+import About from "./routes/About";
+import Project from "./routes/Project";
+import Contact from "./routes/Contact";
 
-import {Route, ROUTES} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 
 
 function App() {
@@ -14,19 +14,23 @@ function App() {
   <>
  
  <Routes>
-   <Routes path="/" element={<Home/>} />
-   <Routes path="/Project" element={<Home/>} />
-   <Routes path="/about" element={<Home/>} />
-   <Routes path="/contact" element={<Home/>} />
+   <Route path="/Home" element={<Home/>} />
+   <Route path="/Project" element={<Project/>} />
+   <Route path="/about" element={<About/>} />
+   <Route path="/contact" element={<Contact/>} />
    </Routes>
+   </>
+
 
       
   
 
   
-  </>
-  
 
+  
+  )}
 
 export default App;
 
+
+  

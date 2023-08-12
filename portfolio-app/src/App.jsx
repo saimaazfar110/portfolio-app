@@ -1,5 +1,9 @@
 import REACT  from "react";
 import "./index.css";
+import Home from "./router/Home";
+import About from "./router/About";
+import Project from "./router/Project";
+import Contact from "./router/Contact";
 
 
 function App() {
@@ -7,7 +11,8 @@ function App() {
 
   <>
  <div>
-    <h1>this is app.js</h1>
+    <h1>This is app.js </h1>
+      
     </div>
 
   

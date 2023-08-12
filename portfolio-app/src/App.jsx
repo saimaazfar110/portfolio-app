@@ -5,20 +5,28 @@ import About from "./router/About";
 import Project from "./router/Project";
 import Contact from "./router/Contact";
 
+import {Route, ROUTES} from "react-router-dom";
+
 
 function App() {
   return (
 
   <>
- <div>
-    <h1>This is app.js </h1>
+ 
+ <Routes>
+   <Routes path="/" element={<Home/>} />
+   <Routes path="/Project" element={<Home/>} />
+   <Routes path="/about" element={<Home/>} />
+   <Routes path="/contact" element={<Home/>} />
+   </Routes>
+
       
-    </div>
+  
 
   
   </>
-  );
-}
+  
+
 
 export default App;
 

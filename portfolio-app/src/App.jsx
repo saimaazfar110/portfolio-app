@@ -20,4 +20,5 @@ function APP() {
 
 
   )
-}
+  }
+  export default APP;

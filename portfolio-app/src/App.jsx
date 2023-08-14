@@ -7,7 +7,7 @@ import Contact from "./routes/Contact";
 
 import { Route, Routes} from "react-router-dom";
 
-function app() {
+function APP() {
   return (
     <>
     <Routes>
